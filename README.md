@@ -12,4 +12,4 @@ flutter run
 
 ## Application Screenshots
 
-<img src="./screenshots/home.png" alt="Home" width="250"/>
+<img src="./screenshots/home.png" alt="Home" width="350"/>
