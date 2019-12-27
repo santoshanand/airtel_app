@@ -12,4 +12,4 @@ flutter run
 
 ## Application Screenshots
 
-![Application Home ](/screenshots/home.png "Home")
+![Application Home ](./screenshots/home.png =250x "Home")
