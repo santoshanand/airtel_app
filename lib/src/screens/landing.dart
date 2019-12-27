@@ -27,14 +27,11 @@ class Landing extends StatelessWidget {
         appBar: AppBar(
           title: Icon(
             Icons.hd,
-            color: Colors.red,
           ),
-          backgroundColor: Colors.white,
           actions: <Widget>[
             IconButton(
               icon: Icon(
                 Icons.notifications_none,
-                color: Colors.black,
               ),
               onPressed: () {
                 Navigator.pushNamed(context, '/messages');
@@ -45,7 +42,9 @@ class Landing extends StatelessWidget {
         bottomNavigationBar: Footer(),
       ),
       providers: <SingleChildWidget>[
-        ChangeNotifierProvider(create: (_) => AppModel()),
+        ChangeNotifierProvider(
+          create: (_) => AppModel(),
+        ),
       ],
     );
   }
